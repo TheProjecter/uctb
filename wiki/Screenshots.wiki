@@ -1,5 +1,5 @@
 #summary Undo Closed Tabs Button screenshots.
-
+----
 == Toolbar Button ==
 https://addons.mozilla.org/en-US/firefox/images/preview/3082/1.png
 
