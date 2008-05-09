@@ -18,3 +18,7 @@ You can report bugs [http://code.google.com/p/uctb/issues/list?can=1&q=&colspec=
 === Where do I go to get support for UCTB? ===
 
 If you find that you need some help with UCTB, please do not hesitate to post a question or ask for help in [http://forums.mozillazine.org/viewtopic.php?p=3365345 this] mozillazine.org thread.
+
+=== How do I contact the developer ===
+
+I really appreciate praise from users of my extension but I ask that you leave it in a form of a review on [https://addons.mozilla.org/en-US/firefox/reviews/add/3082 AMO].  This will allow everyone to see how your experience is with AMO.
