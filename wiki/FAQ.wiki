@@ -9,7 +9,7 @@ If installing from AMO, just click the install button on the AMO page and follow
 
 === How do I customize UCTB? ===
 
-Goto Tools -> Add-ons -> Extensions, the click the options button for UCTB
+Goto _Tools -> Add-ons -> Extensions_, the click the options button for UCTB
 
 === Where do I report bugs? ===
 
