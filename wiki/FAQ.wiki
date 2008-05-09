@@ -1,5 +1,5 @@
 #summary Frequently Asked Questions.
-
+----
 === How do I download UCTB? ===
 You can download the Undo Closed Tabs Button extension from [https://addons.mozilla.org/en-US/firefox/addon/3082 addons.mozilla.org] (AMO) or this extension's Google Code [http://code.google.com/p/uctb/downloads/list download page].
 
