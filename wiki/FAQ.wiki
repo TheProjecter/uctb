@@ -1,20 +1,20 @@
 #summary Frequently Asked Questions.
 
 === How do I download UCTB? ===
-You can download the Undo Closed Tabs Button extension from [https://addons.mozilla.org/en-US/firefox/addon/3082 addons.mozilla.org (AMO)] or this extensions Google Code [http://code.google.com/p/uctb/downloads/list download page].
+You can download the Undo Closed Tabs Button extension from [https://addons.mozilla.org/en-US/firefox/addon/3082 addons.mozilla.org] (AMO) or this extension's Google Code [http://code.google.com/p/uctb/downloads/list download page].
 
 === How do I install UCTB? ===
 
 If installing from AMO, just click the install button on the AMO page and follow the instructions given.  If installing from the Google Code download page, find the file on your hard drive and just drag and drop it anywhere in Firefox then follow the installation prompt.
 
-=== How do I customize UCTB ===
+=== How do I customize UCTB? ===
 
 Goto Tools -> Add-ons -> Extensions, the click the options button for UCTB
 
-=== Where do I report bugs ===
+=== Where do I report bugs? ===
 
 You can report bugs [http://code.google.com/p/uctb/issues/list?can=1&q=&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles here].  Please make sure to check for already existing filed bugs for the same issue.
 
-=== Where do I go to get support for UCTB ===
+=== Where do I go to get support for UCTB? ===
 
 If you find that you need some help with UCTB, please do not hesitate to post a question or ask for help in [http://forums.mozillazine.org/viewtopic.php?p=3365345 this] mozillazine.org thread.
