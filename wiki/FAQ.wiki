@@ -1,7 +1,7 @@
 #summary Frequently Asked Questions.
 ----
 === How do I download UCTB? ===
-You can download the Undo Closed Tabs Button extension from [https://addons.mozilla.org/en-US/firefox/addon/3082 addons.mozilla.org] (AMO) or this extension's Google Code [http://code.google.com/p/uctb/downloads/list download page].
+You can download the Undo Closed Tabs Button extension from *[https://addons.mozilla.org/en-US/firefox/addon/3082 addons.mozilla.org]* (AMO) or this extension's Google Code *[http://code.google.com/p/uctb/downloads/list download page]*.
 
 === How do I install UCTB? ===
 
@@ -11,14 +11,32 @@ If installing from AMO, just click the install button on the AMO page and follow
 
 Goto _Tools -> Add-ons -> Extensions_, the click the options button for UCTB
 
+=== How can I change to shortcut key? ===
+
+Sorry but I had to change it in order to keep my extension on AMO.
+
+You'll have to manually do this for each release. I can't set it to really anything else do to the way mozilla polices the use of shortcuts from extensions.
+
+Find 'firefoxOverlay.xul' in your profile. Like here
+_C:\Documents and Settings\Owner\Application Data\Mozilla\Firefox\Profiles\743jcsho.default\extensions\undoclosedtabsbutton@supernova00.biz\chrome\content_
+
+Find this code:
+{{{
+<keyset>
+<key id="uctb-key" modifiers="control,shift" keycode="z" oncommand="undoCloseTab();"/>
+</keyset>
+}}}
+
+and change the modifiers="control,shift" to just "control" or "shift and keycode="z" to "a" or whatever letter you want.
+
 === Where do I report bugs? ===
 
-You can report bugs [http://code.google.com/p/uctb/issues/list?can=1&q=&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles here].  Please make sure to check for already existing filed bugs for the same issue.
+You can report bugs *[http://code.google.com/p/uctb/issues/list?can=1&q=&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles here]*.  Please make sure to check for already existing filed bugs for the same issue.
 
 === Where do I go to get support for UCTB? ===
 
-If you find that you need some help with UCTB, please do not hesitate to post a question or ask for help in [http://forums.mozillazine.org/viewtopic.php?p=3365345 this] mozillazine.org thread.
+If you find that you need some help with UCTB, please do not hesitate to post a question or ask for help in *[http://forums.mozillazine.org/viewtopic.php?p=3365345 this]* mozillazine.org thread.
 
 === How do I contact the developer ===
 
-I really appreciate praise from users of my extension but I ask that you leave it in a form of a review on [https://addons.mozilla.org/en-US/firefox/reviews/add/3082 AMO].  This will allow everyone to see how your experience is with AMO.
+I really appreciate praise from users of my extension but I ask that you leave it in a form of a review on *[https://addons.mozilla.org/en-US/firefox/reviews/add/3082 AMO]*.  This will allow everyone on AMO to see how your experience is with UCTB.  Thank you!
