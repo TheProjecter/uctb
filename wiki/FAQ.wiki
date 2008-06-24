@@ -3,10 +3,10 @@
 === UCTB does not work ===
 There appears to be some extensions that has disabled a default preference that is set by Firefox 2 and 3 when you install Firefox.  I have coded to set this preference into this extension but it does not always work.  It's an easy fix for you though...
 
-  # Type in *_'about:config'_* into the location bar and hit enter
-  # Read the disclaimer and proceed
-  # In the blank text input line, type or paste *_browser.sessionstore.enabled_* or just scroll down the list and look for it manually
-  # Right-click the preference and select the "reset" reset option or double-click the preference to reset it.
+  # Type in *_about:config_* into the location bar and hit enter
+  ## Read the disclaimer and proceed
+  ### In the blank text input line, type or paste *_browser.sessionstore.enabled_* or just scroll down the list and look for it manually
+  #### Right-click the preference and select the "reset" reset option or double-click the preference to reset it.
 
 === How do I download UCTB? ===
 You can download the Undo Closed Tabs Button extension from *[https://addons.mozilla.org/en-US/firefox/addon/3082 addons.mozilla.org]* (AMO) or this extension's Google Code *[http://code.google.com/p/uctb/downloads/list download page]*.
