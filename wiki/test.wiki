@@ -1,7 +1,7 @@
 #summary http://www.google.com.
 ----
 === Issue Summary ===
-Using the built in Firefox error console, there are a few javascript errors that appear with *http://www.google.com*.
+Using the built in Firefox error console, there are a few javascript errors that appear with *[http://www.google.com http://www.google.com]*.
 
 === Errors ===
 
