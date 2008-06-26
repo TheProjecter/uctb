@@ -3,6 +3,12 @@
 === Issue Summary ===
 Using the built in Firefox error console, there are a few javascript errors that appear with *[http://www.google.com http://www.google.com]*.
 
+=== Gecko/Firefox version(s) this issue effects ===
+
+Gecko/20080***** Firefox/3.0
+and
+Gecko/20080***** Firefox/2.0.0.14
+
 === Errors ===
 
 {{{
@@ -11,12 +17,6 @@ paste error number one here
 {{{
 paste error number two here
 }}}
-
-=== Gecko/Firefox version(s) this issue effects ===
-
-Gecko/20080***** Firefox/3.0
-and
-Gecko/20080***** Firefox/2.0.0.14
 
 === Reporter log(s) ===
 
