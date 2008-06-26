@@ -20,7 +20,8 @@ Gecko/20080***** Firefox/2.0.0.14
 
 === Reporter log(s) ===
 
-Reporter ID: *[http://reporter.mozilla.org/app/report/?report_id=RMO12025252403298&host_hostname=google.com&selected%5B%5D=host_hostname&selected%5B%5D=report_file_date&show=25&product_family=&page=1 RMO12025252403298]*
+Reporter ID: **[http://reporter.mozilla.org/app/report/?report_id=RMO12025252403298&host_hostname=google.com&selected%5B%5D=host_hostname&selected%5B%5D=report_file_date&show=25&product_family=&page=1 RMO12025252403298]*
+**[http://reporter.mozilla.org/app/report/?report_id=RMO12025252403298&host_hostname=google.com&selected%5B%5D=host_hostname&selected%5B%5D=report_file_date&show=25&product_family=&page=1 RMO12025252403298]*
 
 === Bugzilla Bug ===
 
@@ -28,6 +29,7 @@ Bugzilla Bug #: *[https://bugzilla.mozilla.org/show_bug.cgi?id=442024 442024]*
 
 === How to fix this issue ===
 
+explanation...
 {{{
 some code
 }}}
