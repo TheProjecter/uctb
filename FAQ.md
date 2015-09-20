@@ -1,0 +1,51 @@
+
+---
+
+### UCTB does not work ###
+There appears to be some extensions that has disabled a default preference that is set by Firefox 2 and 3 when you install Firefox.  I have coded to set this preference into this extension but it does not always work.  It's an easy fix for you though...
+
+  1. Type in **_about:config_** into the location bar and hit enter
+  1. Read the disclaimer and proceed
+  1. In the blank text input line, type or paste **_browser.sessionstore.enabled_** or just scroll down the list and look for it manually
+  1. Right-click the preference and select the "reset" reset option or double-click the preference to reset it.
+
+### How do I download UCTB? ###
+You can download the Undo Closed Tabs Button extension from **[addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/3082)** (AMO) or this extension's Google Code **[download page](http://code.google.com/p/uctb/downloads/list)**.
+
+### How do I install UCTB? ###
+
+If installing from AMO, just click the install button on the AMO page and follow the instructions given.  If installing from the Google Code download page, find the file on your hard drive and just drag and drop it anywhere in Firefox then follow the installation prompt.
+
+### How do I customize UCTB? ###
+
+Goto _Tools -> Add-ons -> Extensions_, the click the options button for UCTB
+
+### How can I change to shortcut key? ###
+
+Sorry but I had to change it in order to keep my extension on AMO.
+
+You'll have to manually do this for each release. I can't set it to really anything else do to the way mozilla polices the use of shortcuts from extensions.
+
+Find 'firefoxOverlay.xul' in your profile. Like here
+_C:\Documents and Settings\Owner\Application Data\Mozilla\Firefox\Profiles\743jcsho.default\extensions\undoclosedtabsbutton@supernova00.biz\chrome\content_
+
+Find this code:
+```
+<keyset>
+<key id="uctb-key" modifiers="control,shift" keycode="z" oncommand="undoCloseTab();"/>
+</keyset>
+```
+
+and change the modifiers="control,shift" to just "control" or "shift and keycode="z" to "a" or whatever letter you want.
+
+### Where do I report bugs? ###
+
+You can report bugs **[here](http://code.google.com/p/uctb/issues/list?can=1&q=&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles)**.  Please make sure to check for already existing filed bugs for the same issue.
+
+### Where do I go to get support for UCTB? ###
+
+If you find that you need some help with UCTB, please do not hesitate to post a question or ask for help in **[this](http://forums.mozillazine.org/viewtopic.php?p=3365345)** mozillazine.org thread.
+
+### How do I contact the developer ###
+
+I really appreciate praise from users of my extension but I ask that you leave it in a form of a review on **[AMO](https://addons.mozilla.org/en-US/firefox/reviews/add/3082)**.  This will allow everyone on AMO to see how your experience is with UCTB.  Thank you!

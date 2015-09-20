@@ -1,0 +1,36 @@
+
+---
+
+### Issue Summary ###
+Using the built in Firefox error console, there are a few javascript errors that appear with **[http://www.google.com](http://www.google.com)**.
+
+### Gecko/Firefox version(s) this issue effects ###
+
+Gecko/20080**Firefox/3.0
+and
+Gecko/20080** Firefox/2.0.0.14
+
+### Errors ###
+
+```
+paste error number one here
+```
+```
+paste error number two here
+```
+
+### Reporter log(s) ###
+
+Reporter ID(s):
+  * [RMO12025252403298](http://reporter.mozilla.org/app/report/?report_id=RMO12025252403298&host_hostname=google.com&selected%5B%5D=host_hostname&selected%5B%5D=report_file_date&show=25&product_family=&page=1)
+  * [RMO12025252403298](http://reporter.mozilla.org/app/report/?report_id=RMO12025252403298&host_hostname=google.com&selected%5B%5D=host_hostname&selected%5B%5D=report_file_date&show=25&product_family=&page=1)
+### Bugzilla Bug ###
+
+Bugzilla Bug #: **[442024](https://bugzilla.mozilla.org/show_bug.cgi?id=442024)**
+
+### How to fix this issue ###
+
+explanation...
+```
+some code
+```
